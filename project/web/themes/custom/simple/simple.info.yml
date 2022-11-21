@@ -1,0 +1,5 @@
+name: Simple
+type: theme
+description: a simple theme that implements a basic design.
+core_version_requirement: ^9 || ^10
+base theme: false

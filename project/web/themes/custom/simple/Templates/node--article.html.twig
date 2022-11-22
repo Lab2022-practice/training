@@ -93,13 +93,20 @@
     <footer class="node__meta">
       {{ author_picture }}
       <div{{ author_attributes.addClass('node__submitted') }}>
-        {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
+        {#{% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %} #}
+        
+        {% set timestamp = node.getCreatedTime() %}
+        {% set new_date = timestamp|format_date('olivero_medium')|upper %}
+        <p>hello, today is {{ new_date|placeholder }}</p>
+        {% trans %}Submitted by {{ author_name }} on {{ new_date|upper }}{% endtrans %}
+       
         {{ metadata }}
       </div>
     </footer>
   {% endif %}
 
-  {{ kint() }}
+  {#{ kint(content) }#}
+  {#{ kint(node.title.value) }#}
 
   <div{{ content_attributes.addClass('node__content') }}>
     {{ content|without('field_tags', 'comment') }}

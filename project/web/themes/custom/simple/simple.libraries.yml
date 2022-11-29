@@ -1,8 +1,0 @@
-global-styling:
-  css:
-    layout:
-      css/layout.css: {}
-    theme:
-      css/styles.css: {}
-      
-      

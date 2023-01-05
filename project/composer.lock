@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ad257b3ad4787e9da2db5be17e212a7d",
+    "content-hash": "eda6cca7770427c701a2e9e7d895b2f8",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1915,59 +1915,6 @@
             }
         },
         {
-            "name": "drupal/adminimal_theme",
-            "version": "1.6.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/adminimal_theme.git",
-                "reference": "8.x-1.6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/adminimal_theme-8.x-1.6.zip",
-                "reference": "8.x-1.6",
-                "shasum": "89132d0853388afe8dfd11fb83c69a48d8c13413"
-            },
-            "require": {
-                "drupal/core": "^8.8 || ^9"
-            },
-            "type": "drupal-theme",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-1.6",
-                    "datestamp": "1602006937",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0+"
-            ],
-            "authors": [
-                {
-                    "name": "ANDiTKO",
-                    "homepage": "https://www.drupal.org/user/1428124"
-                },
-                {
-                    "name": "andrey.troeglazov",
-                    "homepage": "https://www.drupal.org/user/3145389"
-                },
-                {
-                    "name": "realityloop",
-                    "homepage": "https://www.drupal.org/user/139189"
-                }
-            ],
-            "description": "Drupal administration theme with modern minimalist design.",
-            "homepage": "https://www.drupal.org/project/adminimal_theme",
-            "support": {
-                "source": "https://git.drupalcode.org/project/adminimal_theme",
-                "issues": "https://www.drupal.org/project/issues/adminimal_theme"
-            }
-        },
-        {
             "name": "drupal/core",
             "version": "9.4.8",
             "source": {
@@ -2519,6 +2466,75 @@
             "homepage": "https://www.drupal.org/project/paragraphs",
             "support": {
                 "source": "https://git.drupalcode.org/project/paragraphs"
+            }
+        },
+        {
+            "name": "drupal/ui_patterns",
+            "version": "1.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/ui_patterns.git",
+                "reference": "8.x-1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/ui_patterns-8.x-1.4.zip",
+                "reference": "8.x-1.4",
+                "shasum": "ea019935f30cb3f48898426a75f1d4e544b7cbc7"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "require-dev": {
+                "drupal/ds": "~3",
+                "drupal/field_group": "~3.0"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-1.4",
+                    "datestamp": "1670927845",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Nuvole Web",
+                    "homepage": "https://www.drupal.org/user/186696",
+                    "email": "info@nuvole.org"
+                },
+                {
+                    "name": "bircher",
+                    "homepage": "https://www.drupal.org/user/1344166"
+                },
+                {
+                    "name": "G4MBINI",
+                    "homepage": "https://www.drupal.org/user/2533498"
+                },
+                {
+                    "name": "Grimreaper",
+                    "homepage": "https://www.drupal.org/user/2388214"
+                },
+                {
+                    "name": "pdureau",
+                    "homepage": "https://www.drupal.org/user/1903334"
+                },
+                {
+                    "name": "pescetti",
+                    "homepage": "https://www.drupal.org/user/436244"
+                }
+            ],
+            "description": "UI Patterns.",
+            "homepage": "https://www.drupal.org/project/ui_patterns",
+            "support": {
+                "source": "https://git.drupalcode.org/project/ui_patterns"
             }
         },
         {
@@ -3211,71 +3227,6 @@
                 }
             ],
             "time": "2022-06-20T21:43:03+00:00"
-        },
-        {
-            "name": "kint-php/kint",
-            "version": "5.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/kint-php/kint.git",
-                "reference": "dd7fbd9673a88f6c5d2f838aacb2340afa4ce044"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/kint-php/kint/zipball/dd7fbd9673a88f6c5d2f838aacb2340afa4ce044",
-                "reference": "dd7fbd9673a88f6c5d2f838aacb2340afa4ce044",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=7.1"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "^3",
-                "phpspec/prophecy-phpunit": "^2",
-                "phpunit/phpunit": "^9",
-                "seld/phar-utils": "^1",
-                "symfony/finder": "^4.0 || ^5.0 || ^6.0",
-                "vimeo/psalm": "^5@dev"
-            },
-            "suggest": {
-                "kint-php/kint-helpers": "Provides extra helper functions",
-                "kint-php/kint-twig": "Provides d() and s() functions in twig templates"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "init.php"
-                ],
-                "psr-4": {
-                    "Kint\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jonathan Vollebregt",
-                    "homepage": "https://github.com/jnvsor"
-                },
-                {
-                    "name": "Contributors",
-                    "homepage": "https://github.com/kint-php/kint/graphs/contributors"
-                }
-            ],
-            "description": "Kint - debugging tool for PHP developers",
-            "homepage": "https://kint-php.github.io/kint/",
-            "keywords": [
-                "debug",
-                "kint",
-                "php"
-            ],
-            "support": {
-                "issues": "https://github.com/kint-php/kint/issues",
-                "source": "https://github.com/kint-php/kint/tree/5.0.1"
-            },
-            "time": "2022-11-22T12:16:00+00:00"
         },
         {
             "name": "laminas/laminas-diactoros",

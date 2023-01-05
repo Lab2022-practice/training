@@ -1,0 +1,20 @@
+button:
+  label: 'Button'
+  description: 'Button component'
+  fields:
+    text:
+      type: string
+      label: Button text
+      description: text to be placed on the button
+      preview: Read more
+    url:
+      type: url
+      label: URL
+      description: URL that the user will be directed to
+      preview: https://example.com
+  libraries:
+    -
+      button: 
+        css:
+          component:
+            dist/css/styles.min.css: {minified: true}
